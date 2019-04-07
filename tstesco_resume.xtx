@@ -38,7 +38,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Tom}{Stesco}{ \urlstyle{same}\href{https://www.tomstesco.com}{tomstesco.com}\\
-\href{mailto:tom.stesco@gmail.com}{tom.stesco@gmail.com} | +41 77 977 19 97 | \href{tstesco@student.ethz.ch}{tstesco@student.ethz.ch}
+\href{mailto:tom.stesco@gmail.com}{tom.stesco@gmail.com} | \href{tstesco@student.ethz.ch}{tstesco@student.ethz.ch}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,7 +57,7 @@
 
 \subsection{ETH Zurich}
 \descript{MSc in Integrated Building Systems}
-\location{Sep 2018 (Exp) | Zurich, Switzerland}
+\location{October 2018 | Zurich, Switzerland}
 \sectionsep
 
 \subsection{University of Waterloo}
@@ -110,28 +110,20 @@ Fluid Mechanics \\
 
 \section{Programming}
 %\subsection{Programming}
-\location{Over 16,000 lines:}
+\location{Over 32 KLOC:}
 Python \\
-\location{Over 4000 lines:}
-Javascript \textbullet{} 
-SQL \\ 
-\location{Over 2000 lines:}
-Modelica \textbullet{} 
-Matlab \textbullet{} 
-Java \textbullet{} 
+\location{Over 8 KLOC:}
 C++ \\
-C\# \textbullet{}
-VBA \textbullet{} 
-Bash \\
+\location{Over 4 KLOC:}
+Bash \textbullet{}
+SQL \textbullet{}
+Java \textbullet{}
+Javascript \\
 \location{Familiar with:}
 PyMC3 \textbullet{} 
 Theano \textbullet{} 
 Tensorflow \\
-JModelica \textbullet{} 
-CasADi \textbullet{} 
-FMI \\
-linux \textbullet{} 
-ssh \textbullet{} 
+GNU/Linux \textbullet{} 
 git \textbullet{} 
 docker \\
 \sectionsep
@@ -151,14 +143,22 @@ docker \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Ecobee}
+\descript{| Data Scientist}
+\location{Oct 2018 – present | Toronto, ON}
+\vspace{\topsep}
+\begin{tightemize}
+\item Research and development of high-level control algorithms for embedded smart thermostat devices.
+\item Implementation of continuous testing and deployment system for control algorithm software.
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Energy Profiles Limited}
 \descript{| Energy Data Analyst Intern}
 \location{Sep 2015 – Dec 2015 | Toronto, ON}
-\vspace{\topsep}
 \begin{tightemize}
-\item Developed T-SQL application to detect equipment or data issues based on user defined stochastic models from energy submeter data.
+\item Developed equipment issue and data error detection application using energy submeter data.
 \item Improved internal C\# application for estimating missing energy bill data.
-\item Added features and fixed bugs in Java and SQL energy data pipeline.
 \end{tightemize}
 \sectionsep
 
@@ -166,9 +166,8 @@ docker \\
 \descript{| Civil Technologist}
 \location{Jan 2015 – Jun 2015 | Markham, ON}
 \begin{tightemize}
-\item Worked with water flow sensor technician team to digitize workflow using windows API.
+\item Worked with water flow sensor technician team to digitize workflow.
 \item Automated task of importing sensor data and producing reports for clients.
-\item Provided remote support and software maintenance.
 \end{tightemize}
 \sectionsep
 
@@ -185,8 +184,8 @@ docker \\
 \descript{| Engineering Analyst}
 \location{Sep 2013 – Dec 2013 | Toronto, ON}
 \begin{tightemize}
-\item Worked with company executives on development of transit system pricing strategy.
-\item Compiled existing data and consultant reports to estimate impacts of pricing on ridership and revenue.
+\item Worked with company executives on transit system pricing strategy.
+\item Compiled data and consultant reports to model pricing, ridership, and revenue.
 \end{tightemize}
 \sectionsep
 
@@ -199,8 +198,8 @@ docker \\
 \descript{| Master Student}
 \location{Sep 2017 – Sep 2018 | Zurich, Switzerland}
 \begin{tightemize}
-\item Worked with {\href{http://control.ee.ethz.ch/people/profile.annika-eichler.html}{Dr. Annika Eichler} on the humans-in-the-loop project for building controls combining Model Predictive Control (MPC) and online Bayesian learning.
-\item Developed Python API on top of JModelica framework to create MPC models and run software-in-the-loop experiments.
+\item Worked with {\href{http://control.ee.ethz.ch/people/profile.annika-eichler.html}{Dr. Annika Eichler} on project combining Model Predictive Control and online Bayesian learning for building controls.
+\item Developed Python API on top of JModelica framework to create MPC models and run building simulation experiments.
 \item Designed MPC coupled online Bayesian learning models using PyMC3 and deployment environment for training on HPC cluster.
 \end{tightemize}
 \sectionsep
