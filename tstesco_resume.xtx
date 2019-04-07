@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+
+\documentclass[]{resume-openfont}
+\usepackage{fancyhdr}
+
+% adding embedded graphics
+\usepackage{tikz}
+\newcommand{\gthb}{\includegraphics[scale=0.023]{img/github-logo.pdf}}%
+\newcommand{\lnkdn}{\includegraphics[scale=0.023]{img/linkedin-logo.pdf}}%
+\newcommand{\home}{\includegraphics[scale=0.022]{img/home-solid.pdf}}%
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Tom}{Stesco}{ \urlstyle{same}\href{https://www.tomstesco.com}{tomstesco.com}\\
+\href{mailto:tom.stesco@gmail.com}{tom.stesco@gmail.com} | +41 77 977 19 97 | \href{tstesco@student.ethz.ch}{tstesco@student.ethz.ch}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{ETH Zurich}
+\descript{MSc in Integrated Building Systems}
+\location{Sep 2018 (Exp) | Zurich, Switzerland}
+\sectionsep
+
+\subsection{University of Waterloo}
+\descript{BASc in Honours Civil Engineering}
+\location{June 2016 | Waterloo, ON}
+With Distinction \\
+Final year average: 90\% \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+\home \hspace{0.167cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} \\
+\gthb \hspace{0.2cm} \href{https://github.com/tstesco}{\bf tstesco} \\
+\lnkdn \hspace{0.215cm} \href{https://https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Model Predictive Control \\
+Whole Building Simulation \\
+Building Control and Automation \\
+Application of CFD in Buildings \\
+Renewable Energy Technologies \\
+Materials and Constructions \\
+Energy Conversion \\
+Building Physics \\
+Urban Physics \\
+\sectionsep
+
+\subsection{Undergraduate}
+Building Science \\
+Building Energy Performance \\
+Air Pollution Control \\
+Contaminant Transport \\
+Civil Systems \\
+Hydraulics \\
+Solid Mechanics\\
+Fluid Mechanics \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Programming}
+%\subsection{Programming}
+\location{Over 16,000 lines:}
+Python \\
+\location{Over 4000 lines:}
+Javascript \textbullet{} 
+SQL \\ 
+\location{Over 2000 lines:}
+Modelica \textbullet{} 
+Matlab \textbullet{} 
+Java \textbullet{} 
+C++ \\
+C\# \textbullet{}
+VBA \textbullet{} 
+Bash \\
+\location{Familiar with:}
+PyMC3 \textbullet{} 
+Theano \textbullet{} 
+Tensorflow \\
+JModelica \textbullet{} 
+CasADi \textbullet{} 
+FMI \\
+linux \textbullet{} 
+ssh \textbullet{} 
+git \textbullet{} 
+docker \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Energy Profiles Limited}
+\descript{| Energy Data Analyst Intern}
+\location{Sep 2015 – Dec 2015 | Toronto, ON}
+\vspace{\topsep}
+\begin{tightemize}
+\item Developed T-SQL application to detect equipment or data issues based on user defined stochastic models from energy submeter data.
+\item Improved internal C\# application for estimating missing energy bill data.
+\item Added features and fixed bugs in Java and SQL energy data pipeline.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{AECOM Canada}
+\descript{| Civil Technologist}
+\location{Jan 2015 – Jun 2015 | Markham, ON}
+\begin{tightemize}
+\item Worked with water flow sensor technician team to digitize workflow using windows API.
+\item Automated task of importing sensor data and producing reports for clients.
+\item Provided remote support and software maintenance.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Dragados Canada}
+\descript{| Civil Engineering Student}
+\location{May 2014 – Aug 2014 | Toronto, ON}
+\begin{tightemize}
+\item Automated cost estimating and reporting of road and sidewalk closures for Eglinton LRT project bid.
+\item Analyzed contracts and construction staging plans to help build strategy for lane closures.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Union Pearson Express}
+\descript{| Engineering Analyst}
+\location{Sep 2013 – Dec 2013 | Toronto, ON}
+\begin{tightemize}
+\item Worked with company executives on development of transit system pricing strategy.
+\item Compiled existing data and consultant reports to estimate impacts of pricing on ridership and revenue.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Automatic Control Lab}
+\descript{| Master Student}
+\location{Sep 2017 – Sep 2018 | Zurich, Switzerland}
+\begin{tightemize}
+\item Worked with {\href{http://control.ee.ethz.ch/people/profile.annika-eichler.html}{Dr. Annika Eichler} on the humans-in-the-loop project for building controls combining Model Predictive Control (MPC) and online Bayesian learning.
+\item Developed Python API on top of JModelica framework to create MPC models and run software-in-the-loop experiments.
+\item Designed MPC coupled online Bayesian learning models using PyMC3 and deployment environment for training on HPC cluster.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS AND PROGRAMMES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards \& Programs} 
+\begin{tabular}{rll}
+2016	 & Excellence Scholarship \& Opportunity Program & ETH Zurich\\
+2016     & Engineer of the Future Fund & University of Waterloo \\
+2012     & Merit Scholarship & University of Waterloo \\
+2010     & SHAD summer program & SHAD Canada \\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
