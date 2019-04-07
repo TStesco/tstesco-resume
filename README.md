@@ -9,9 +9,9 @@ Generate .pdf with xelatex:
 ```
 xelatex tstesco_resume.xtx
 ```
-![alt tag](https://github.com/TStesco/tstesco-resume/preview/tstesco_resume.png)
+![alt tag](https://raw.githubusercontent.com/TStesco/tstesco-resume/master/preview/tstesco_resume.png)
 
-Preview as a direct download: [tstesco_resume.pdf](https://github.com/TStesco/tstesco-resume/blob/master/tstesco_resume.pdf)
+Preview .pdf as a direct download: [tstesco_resume.pdf](https://github.com/TStesco/tstesco-resume/raw/master/tstesco_resume.pdf)
 
 ## Credits
 
