@@ -19,7 +19,11 @@
 \newcommand{\gthb}{\includegraphics[scale=0.023]{img/github-logo.pdf}}%
 \newcommand{\lnkdn}{\includegraphics[scale=0.023]{img/linkedin-logo.pdf}}%
 \newcommand{\home}{\includegraphics[scale=0.022]{img/home-solid.pdf}}%
- 
+\newcommand{\location}{\includegraphics[scale=0.022]{img/location.pdf}}%
+\newcommand{\email}{\includegraphics[scale=0.09]{img/email.pdf}}%
+%\newcommand{\phone}{\includegraphics[scale=0.035]{img/phone-call.pdf}}%
+\newcommand{\call}{\includegraphics[scale=0.023]{img/call.pdf}}%
+
 \pagestyle{fancy}
 \fancyhf{}
  
@@ -37,8 +41,9 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Tom}{Stesco}{ \urlstyle{same}\href{https://www.tomstesco.com}{tomstesco.com}\\
-\href{mailto:tom.stesco@gmail.com}{tom.stesco@gmail.com} | \href{tstesco@student.ethz.ch}{tstesco@student.ethz.ch}
+\namesection{Tom}{Stesco}{ 
+\email \hspace{0.1cm} \href{mailto:tom.stesco@protonmail.com}{\bf tom.stesco@protonmail.com} |
+\call \hspace{0.1cm} \bf +1 (416)-999-6759}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -56,15 +61,15 @@
 \section{Education} 
 
 \subsection{ETH Zurich}
-\descript{MSc in Integrated Building Systems}
+\descript{MSc Integrated Building Systems}
 \location{October 2018 | Zurich, Switzerland}
+5.75 / 6.0 thesis grade
 \sectionsep
 
 \subsection{University of Waterloo}
-\descript{BASc in Honours Civil Engineering}
+\descript{BASc Honours Civil Engineering}
 \location{June 2016 | Waterloo, ON}
-With Distinction \\
-Final year average: 90\% \\
+With Distinction, 90\% final term grade \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -77,32 +82,7 @@ Final year average: 90\% \\
 \lnkdn \hspace{0.215cm} \href{https://https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-\subsection{Graduate}
-Model Predictive Control \\
-Whole Building Simulation \\
-Building Control and Automation \\
-Application of CFD in Buildings \\
-Renewable Energy Technologies \\
-Materials and Constructions \\
-Energy Conversion \\
-Building Physics \\
-Urban Physics \\
-\sectionsep
-
-\subsection{Undergraduate}
-Building Science \\
-Building Energy Performance \\
-Air Pollution Control \\
-Contaminant Transport \\
-Civil Systems \\
-Hydraulics \\
-Solid Mechanics\\
-Fluid Mechanics \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -110,23 +90,54 @@ Fluid Mechanics \\
 
 \section{Programming}
 %\subsection{Programming}
-\location{Over 32 KLOC:}
-Python \\
-\location{Over 8 KLOC:}
-C++ \\
-\location{Over 4 KLOC:}
-Bash \textbullet{}
+\subsection{expert}
+ Python \\
+\\
+% \location{proficient}
+\subsection{proficient}
+ C++ \textbullet{}
 SQL \textbullet{}
-Java \textbullet{}
-Javascript \\
-\location{Familiar with:}
-PyMC3 \textbullet{} 
-Theano \textbullet{} 
-Tensorflow \\
-GNU/Linux \textbullet{} 
-git \textbullet{} 
-docker \\
+Bash \\
+\subsection{prior experience}
+Java \textbullet{} Javascript
+
+\subsection{tools}
+ Numpy \textbullet{} Pandas \textbullet{} Statsmodels \\
+SKlearn \textbullet{} PyMC3 \textbullet{} CasADi \\
+Plotly \textbullet{} Matplotlib \textbullet{} Jupyter lab \\
+MySQL \textbullet{} BigQuery \textbullet{} BigTable \\
+Docker \textbullet{} Kubernetes \textbullet{} GCP\\
+GNU/Linux \textbullet{} Git \\
+
+
 \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Model Predictive Control \\
+Mathematical Optimization \\
+Computational Physics \\
+Building Control and Automation \\
+Computational Fluid Dynamics \\
+Renewable Energy Technologies \\
+Technology and Innovation Management \\
+Innovation Leadership \\
+Social Networks Research\\
+\sectionsep
+
+\subsection{Undergraduate}
+Software Engineering Design Project \\
+Building Science \\
+Air Pollution Control \\
+Bioprocess Engineering \\
+Advanced Calculus \\
+Differential Equations \\
+Probability and Statistics \\
+Linear Algebra \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -141,66 +152,55 @@ docker \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Experience}
+
 \runsubsection{Ecobee}
-\descript{| Data Scientist}
-\location{Oct 2018 – present | Toronto, ON}
+\descript{| Senior Data Scientist}
+\location{Jun 2021 – present | Toronto, ON}
 \vspace{\topsep}
 \begin{tightemize}
-\item Research and development of high-level control algorithms for embedded smart thermostat devices.
-\item Implementation of continuous testing and deployment system for control algorithm software.
+\item Lead development of Model Predictive Control (MPC) optimization algorithms in C++ on embedded IoT devices to increase customer HVAC energy savings and improve thermal comfort.
+\item Solved IoT device temperature calibration regression model generalization issues by preprocessing training data and adding k-fold cross validation to feature engineering.
+\item Accelerated thermodynamics predictive modelling team cycle time from weeks to days by automating training, validation, and deployment in GCP using Python and Docker.
+\item Lead external research collaborations with 4+  groups related to HVAC controls and simulation software and 2 industry partnership MM\$ projects.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ecobee}
+\descript{| Data Scientist}
+\location{Oct 2018 – Jun 2021 | Toronto, ON}
+\vspace{\topsep}
+\begin{tightemize}
+\item Scaled internal IoT experimentation platform from 0 to 150k+ devices running 10+ experiments simultaneously by automating build, deployment, and monitoring with C++, Bash, and Python.
+\item Lead development of \href{https://github.com/ecobee/building-controls-simulator}{\bf github.com/ecobee/building-controls-simulator}, an open source Python library for HVAC control algorithm performance testing and presented at the \href{http://esim2020.sala.ubc.ca/}{\bf eSim2020} conference.
+\item Analyzed TB scale sensor and product data to make data driven recommendations and identify issues.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Energy Profiles Limited}
-\descript{| Energy Data Analyst Intern}
+\descript{| Energy Data Analyst (Intern)}
 \location{Sep 2015 – Dec 2015 | Toronto, ON}
 \begin{tightemize}
-\item Developed equipment issue and data error detection application using energy submeter data.
-\item Improved internal C\# application for estimating missing energy bill data.
+\item Developed equipment issue and input data error detection SQL queries using energy bill and submeter data.
+\item Added features and bug fixes to energy bill data ingestion pipeline in Java.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{AECOM Canada}
-\descript{| Civil Technologist}
-\location{Jan 2015 – Jun 2015 | Markham, ON}
-\begin{tightemize}
-\item Worked with water flow sensor technician team to digitize workflow.
-\item Automated task of importing sensor data and producing reports for clients.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Dragados Canada}
-\descript{| Civil Engineering Student}
-\location{May 2014 – Aug 2014 | Toronto, ON}
-\begin{tightemize}
-\item Automated cost estimating and reporting of road and sidewalk closures for Eglinton LRT project bid.
-\item Analyzed contracts and construction staging plans to help build strategy for lane closures.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Union Pearson Express}
-\descript{| Engineering Analyst}
-\location{Sep 2013 – Dec 2013 | Toronto, ON}
-\begin{tightemize}
-\item Worked with company executives on transit system pricing strategy.
-\item Compiled data and consultant reports to model pricing, ridership, and revenue.
-\end{tightemize}
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Research}
-\runsubsection{Automatic Control Lab}
+\runsubsection{\href{https://control.ee.ethz.ch}{Automatic Control Lab}}
 \descript{| Master Student}
-\location{Sep 2017 – Sep 2018 | Zurich, Switzerland}
+\location{Sep 2017 – Oct 2018 | Zurich, Switzerland}
 \begin{tightemize}
-\item Worked with {\href{http://control.ee.ethz.ch/people/profile.annika-eichler.html}{Dr. Annika Eichler} on project combining Model Predictive Control and online Bayesian learning for building controls.
-\item Developed Python API on top of JModelica framework to create MPC models and run building simulation experiments.
-\item Designed MPC coupled online Bayesian learning models using PyMC3 and deployment environment for training on HPC cluster.
+\item Worked with Dr. Annika Eichler on project combining Model Predictive Control (MPC) and online Bayesian learning for building controls.
+\item Developed Python library to model building thermodynamics and run MPC simulation experiments on HPC cluster.
+\item Developed online Bayesian Linear Discriminant Analysis (LDA) classifier for thermal comfort using PyMC3 with an MCMC algorithm.
+\item Developed predictive model of occupancy probability in Python using Markov chains and change point detection algorithm.
+%\item Designed MPC coupled online  learning models using PyMC3 and deployment environment for training on HPC cluster.
 \end{tightemize}
 \sectionsep
 
