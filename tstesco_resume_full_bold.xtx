@@ -1,0 +1,289 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+
+\documentclass[]{resume-openfont}
+\usepackage{fancyhdr}
+
+% adding embedded graphics
+\usepackage{tikz}
+\newcommand{\gthb}{\includegraphics[scale=0.023]{img/github-logo.pdf}}%
+\newcommand{\lnkdn}{\includegraphics[scale=0.023]{img/linkedin-logo.pdf}}%
+\newcommand{\home}{\includegraphics[scale=0.022]{img/home-solid.pdf}}%
+\newcommand{\location}{\includegraphics[scale=0.022]{img/location.pdf}}%
+\newcommand{\email}{\includegraphics[scale=0.09]{img/email.pdf}}%
+%\newcommand{\phone}{\includegraphics[scale=0.035]{img/phone-call.pdf}}%
+\newcommand{\call}{\includegraphics[scale=0.023]{img/call.pdf}}%
+
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   PAGE ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Tom}{Stesco}{ 
+\email \hspace{0.1cm} \href{mailto:tom.stesco@protonmail.com}{\bf tom.stesco@protonmail.com} |
+\call \hspace{0.1cm} \bf +1 (416)-999-6759}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+\home \hspace{0.167cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} \\
+\gthb \hspace{0.2cm} \href{https://github.com/tstesco}{\bf tstesco} \\
+\lnkdn \hspace{0.215cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Programming}
+%\subsection{Programming}
+\subsection{expert}
+ Python
+% \location{proficient}
+\subsection{proficient}
+ C++ \textbullet{}
+SQL \textbullet{}
+Bash
+\subsection{prior experience}
+Java \textbullet{} Javascript
+
+\subsection{tools}
+Airflow \textbullet{} Spark \textbullet{} PySpark \\
+Pytorch \textbullet{} PyMC3 \textbullet{} XGBoost \\
+Numpy \textbullet{} Pandas \textbullet{} SKlearn \\
+MySQL \textbullet{} BigQuery \textbullet{} Datastore \\
+Kafka \textbullet{} PubSub \textbullet{} Protobuf \\
+Docker \textbullet{} Kubernetes \textbullet{} Terraform \\
+GCP \textbullet{} AWS \textbullet{} Azure \\
+GNU/Linux \textbullet{} Git \\
+
+% Pub/Sub \textbullet{} Protobuf \\
+% Docker \textbullet{} Kubernetes \\
+% GCP \textbullet{} AWS \\
+% GNU/Linux \textbullet{} Git \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{ETH Zurich}
+\descript{MSc Integrated Building Systems}
+\location{October 2018 | Zurich, Switzerland}
+\sectionsep
+
+\subsection{University of Waterloo}
+\descript{BASc Honours Civil Engineering}
+\location{June 2016 | Waterloo, ON}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Model Predictive Control \\
+Mathematical Optimization \\
+Computational Physics \\
+Building Control and Automation \\
+Computational Fluid Dynamics \\
+Renewable Energy Technologies \\
+Technology and Innovation Management \\
+Innovation Leadership \\
+Social Networks Research\\
+\sectionsep
+
+\subsection{Undergraduate}
+Software Engineering Design Project \\
+Building Science \\
+%Air Pollution Control \\
+Bioprocess Engineering \\
+Advanced Calculus \\
+Probability and Statistics \\
+Linear Algebra \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\runsubsection{BCG X}
+\descript{| Senior AI/ML Software Engineer}
+\location{May 2022 – present | Toronto, ON}
+\vspace{\topsep}
+\begin{tightemize}
+\item Led \textbf{ML Ops} for production ML pricing models in \$10 billion/yr ecommerce system, including: code review (team of 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
+\item Development of \textbf{ETL} and \textbf{XGBoost model training} pipelines using \textbf{Spark} on \textbf{Airflow}.
+\item Aligned client and internal teams on design of steaming backend system using Azure Event Hubs (PaaS Kafka) and Databricks (PaaS Spark).
+\item Reviewed deep learning literature and evaluted published computer vision models using PyTorch.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ecobee}
+\descript{| Senior Data Scientist}
+\location{Jun 2021 – May 2022 (1 year) | Toronto, ON}
+%\vspace{\topsep}
+\begin{tightemize}
+\item Led development of edge IoT device \textbf{convex optimization of ML models} for Model Predictive Control application in C++ using interior point methods.
+%\item Improved IoT device temperature sensor calibration regression model by implementing cross validation, grid search (over preprocessing methods), and regularization (lasso) to feature engineering and model selection.
+\item Accelerated ML modeling iteration cycle time from weeks to days by automating: preprocessing, training, validation, and deployment using Python and Docker.
+\item Led \textbf{external research collaborations} with 4+ academic groups and 2 industry partnership research projects on ML driven controls and simulation software.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ecobee}
+\descript{| Data Scientist}
+\location{Oct 2018 – Jun 2021 (2 years, 8 months) | Toronto, ON}
+%\vspace{\topsep}
+\begin{tightemize}
+\item Scaled internal IoT \textbf{experimentation platform} from 0 to 150k+ devices running 10+ experiments simultaneously} by automating build, deployment, monitoring, and metrics with C++, Python, PubSub, and Protobuf.
+\item Led development of \textbf{ML driven controls simulation platform}, including open sourcing \href{https://github.com/ecobee/building-controls-simulator}{\bf building-controls-simulator}, a Python library for HVAC control algorithm performance testing and presented at the \href{http://esim2020.sala.ubc.ca/}{\bf eSim2020} conference.
+%\item Analyzed TB scale sensor and product data to make data driven recommendations and identify issues.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Energy Profiles Limited}
+\descript{| Energy Data Analyst (Co-op)}
+\location{Sep 2015 – Dec 2015 (4 months)| Toronto, ON}
+\begin{tightemize}
+\item Developed \textbf{SQL error detection model} for equipment issue and input data for building energy submeter data.
+\item Added features and bug fixes to energy bill \textbf{data ingestion pipeline} in Java.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{AECOM Canada}
+\descript{| Civil Engineering Student (Co-op)}
+\location{Jan 2015 – Apr 2015 (4 months) | Markham, ON}
+\begin{tightemize}
+\item \textbf{Digitized workflow} for water flow sensor team to remove toil of: data entry from paper forms, data validation, and generating reports for clients.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Dragados Canada}
+\descript{| Civil Engineering Student (Co-op)}
+\location{May 2014 – Aug 2014 (4 months) | Toronto, ON}
+\begin{tightemize}
+\item \textbf{Automated cost estimating and reporting} of road and sidewalk closures for Eglinton Crosstown LRT project bid.
+%\item Analyzed contracts and construction staging plans to help build strategy for lane closures.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Union Pearson Express}
+\descript{| Engineering Analyst (Co-op)}
+\location{Jan 2013 – Apr 2013,  Sept 2013 – Dec 2013 (8 months) | Toronto, ON}
+\begin{tightemize}
+%\item Worked with company executives on development of pricing strategy and drafting of a detailed presentation for corporate senior management.
+\item Compiled data and consultant reports for \textbf{predictive modelling} of effects of pricing on ridership and revenue.
+\end{tightemize}
+\sectionsep
+
+%\runsubsection{Rollstar Metalforming}
+%\descript{| Engineering Assistant (Co-op)}
+%\location{May 2012 – Aug 2012 (4 months) | Mississauga, ON}
+%\begin{tightemize}
+%\item Prepared efficiency and asset audit reports on factory assembly lines for general manager.
+%%\item Worked with general manager and head accountant to complete physical assets audit of plant.
+%\end{tightemize}
+%\sectionsep
+
+
+\end{minipage}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   PAGE TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PAGE TWO COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth}
+% dummy section to make spacing
+\section{}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PAGE TWO COLUMN TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth}
+\hfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{\href{https://control.ee.ethz.ch}{Automatic Control Lab}}
+\descript{| Master's Student}
+\location{Sep 2017 – Oct 2018 | Zurich, Switzerland}
+\begin{tightemize}
+\item Worked with Prof. Dr. John Lygeros and Dr. Annika Eichler on Human-in-the-Loop building controls project combining Model Predictive Control (MPC) and online Bayesian learning for minimizing energy consumption and maximizing thermal comfort of occupants.
+\item Built Python library to model building thermodynamics and run coupled model training and simulation experiments on HPC cluster.
+\item Developed online Bayesian Linear Discriminant Analysis (LDA) classifier for thermal comfort using PyMC3 with an MCMC algorithm.
+\item Derived predictive model of occupancy probability in Python using Markov chains and change point detection algorithm.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS AND PROGRAMMES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards \& Programs} 
+\begin{tabular}{rll}
+2016	 & Excellence Scholarship \& Opportunity Program & ETH Zurich\\
+2016     & Engineer of the Future Fund & University of Waterloo \\
+2012     & Merit Scholarship & University of Waterloo \\
+2010     & SHAD Valley summer program & SHAD Canada \\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}
+

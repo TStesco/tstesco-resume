@@ -63,13 +63,11 @@
 \subsection{ETH Zurich}
 \descript{MSc Integrated Building Systems}
 \location{October 2018 | Zurich, Switzerland}
-5.75 / 6.0 thesis grade
 \sectionsep
 
 \subsection{University of Waterloo}
 \descript{BASc Honours Civil Engineering}
 \location{June 2016 | Waterloo, ON}
-With Distinction, 90\% final term grade \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,7 +77,7 @@ With Distinction, 90\% final term grade \\
 \section{Links} 
 \home \hspace{0.167cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} \\
 \gthb \hspace{0.2cm} \href{https://github.com/tstesco}{\bf tstesco} \\
-\lnkdn \hspace{0.215cm} \href{https://https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
+\lnkdn \hspace{0.215cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
 \sectionsep
 
 
@@ -104,10 +102,14 @@ Java \textbullet{} Javascript
 \subsection{tools}
  Numpy \textbullet{} Pandas \textbullet{} Statsmodels \\
 SKlearn \textbullet{} PyMC3 \textbullet{} CasADi \\
-Plotly \textbullet{} Matplotlib \textbullet{} Jupyter lab \\
-MySQL \textbullet{} BigQuery \textbullet{} BigTable \\
-Docker \textbullet{} Kubernetes \textbullet{} GCP\\
-GNU/Linux \textbullet{} Git \\
+MySQL \textbullet{} BigQuery \textbullet{} Pub/Sub \\
+Protobuf \textbullet{} Docker \textbullet{} Kubernetes \\
+GCP \textbullet{} AWS \textbullet{} GNU/Linux \textbullet{} Git \\
+
+% Pub/Sub \textbullet{} Protobuf \\
+% Docker \textbullet{} Kubernetes \\
+% GCP \textbullet{} AWS \\
+% GNU/Linux \textbullet{} Git \\
 
 
 \sectionsep
@@ -135,7 +137,6 @@ Building Science \\
 Air Pollution Control \\
 Bioprocess Engineering \\
 Advanced Calculus \\
-Differential Equations \\
 Probability and Statistics \\
 Linear Algebra \\
 
@@ -160,7 +161,7 @@ Linear Algebra \\
 \vspace{\topsep}
 \begin{tightemize}
 \item Lead development of Model Predictive Control (MPC) optimization algorithms in C++ on embedded IoT devices to increase customer HVAC energy savings and improve thermal comfort.
-\item Solved IoT device temperature calibration regression model generalization issues by preprocessing training data and adding k-fold cross validation to feature engineering.
+\item Improved IoT device temperature sensor calibration regression model by adding k-fold cross validation and grid search over preprocessing methods to feature engineering and model selection.
 \item Accelerated thermodynamics predictive modelling team cycle time from weeks to days by automating training, validation, and deployment in GCP using Python and Docker.
 \item Lead external research collaborations with 4+  groups related to HVAC controls and simulation software and 2 industry partnership MM\$ projects.
 \end{tightemize}
@@ -196,7 +197,7 @@ Linear Algebra \\
 \descript{| Master Student}
 \location{Sep 2017 – Oct 2018 | Zurich, Switzerland}
 \begin{tightemize}
-\item Worked with Dr. Annika Eichler on project combining Model Predictive Control (MPC) and online Bayesian learning for building controls.
+\item Worked with Dr. Annika Eichler on project combining MPC and online Bayesian learning for building controls.
 \item Developed Python library to model building thermodynamics and run MPC simulation experiments on HPC cluster.
 \item Developed online Bayesian Linear Discriminant Analysis (LDA) classifier for thermal comfort using PyMC3 with an MCMC algorithm.
 \item Developed predictive model of occupancy probability in Python using Markov chains and change point detection algorithm.
@@ -213,7 +214,7 @@ Linear Algebra \\
 2016	 & Excellence Scholarship \& Opportunity Program & ETH Zurich\\
 2016     & Engineer of the Future Fund & University of Waterloo \\
 2012     & Merit Scholarship & University of Waterloo \\
-2010     & SHAD summer program & SHAD Canada \\
+2010     & SHAD Valley summer program & SHAD Canada \\
 \end{tabular}
 \sectionsep
 
