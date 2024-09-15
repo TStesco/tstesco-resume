@@ -1,4 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % One Page Two Column Resume
 % LaTeX Template
 % Version 1.2 (16/9/2014)
@@ -35,8 +36,8 @@
 %
 %     LAST UPDATED DATE
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%f%%%%%
+% \lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -44,16 +45,19 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Tom}{Stesco}{ 
-\email \hspace{0.1cm} \href{mailto:tom.stesco@protonmail.com}{\bf tom.stesco@protonmail.com} |
-\call \hspace{0.1cm} \bf +1 (416)-999-6759}
-
+\gthb \hspace{0.1cm} \href{https://github.com/tstesco}{\bf tstesco} | 
+\home \hspace{0.1cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} |
+\lnkdn \hspace{0.1cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} |
+\email \hspace{0.1cm} \href{mailto:tom.stesco@protonmail.com}{\bf tom.stesco@protonmail.com}
+%\call \hspace{0.1cm} \bf +1 (416)-999-6759
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN ONE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.33 \textwidth} 
 
 
 
@@ -61,10 +65,10 @@
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-\home \hspace{0.167cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} \\
-\gthb \hspace{0.2cm} \href{https://github.com/tstesco}{\bf tstesco} \\
-\lnkdn \hspace{0.215cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
+% \section{Links} 
+% \home \hspace{0.167cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} \\
+% \gthb \hspace{0.2cm} \href{https://github.com/tstesco}{\bf tstesco} \\
+% \lnkdn \hspace{0.215cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
 
 
 
@@ -86,18 +90,18 @@ Java \textbullet{} Javascript
 
 \subsection{tools}
 Airflow \textbullet{} Spark \textbullet{} PySpark \\
-PyTorch \textbullet{} PyMC3 \textbullet{} XGBoost \\
+PyTorch \textbullet{} ONNX \textbullet{} XGBoost \\
 Numpy \textbullet{} Pandas \textbullet{} SKlearn \\
 MySQL \textbullet{} BigQuery \textbullet{} Datastore \\
 Kafka \textbullet{} PubSub \textbullet{} Protobuf \\
 Docker \textbullet{} Kubernetes \textbullet{} Terraform \\
 GCP \textbullet{} AWS \textbullet{} Azure \\
-GNU/Linux \textbullet{} Git \\
+GNU/Linux \textbullet{} Git
 
 % Pub/Sub \textbullet{} Protobuf \\
 % Docker \textbullet{} Kubernetes \\
 % GCP \textbullet{} AWS \\
-% GNU/Linux \textbullet{} Git \\
+% GNU/Linux \textbullet{} Git
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -108,12 +112,14 @@ GNU/Linux \textbullet{} Git \\
 
 \subsection{ETH Zurich}
 \descript{MSc Integrated Building Systems}
-\location{October 2018 | Zurich, Switzerland}
+Excellence Scholar \\
+\location{Oct 2018 | Zurich, Switzerland}
 \sectionsep
 
 \subsection{University of Waterloo}
 \descript{BASc Honours Civil Engineering}
-\location{June 2016 | Waterloo, ON}
+Merit Scholarship \\
+\location{Jun 2016 | Waterloo, Canada}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -158,32 +164,31 @@ Linear Algebra \\
 \section{Experience}
 
 \runsubsection{BCG X}
-\descript{| Senior AI/ML Software Engineer}
-\location{May 2022 – present | Toronto, ON}
+\descript{| Senior AI/ML Engineer}
+\location{May 2022 – present | Toronto, Canada}
 \vspace{\topsep}
 \begin{tightemize}
-\item Led MLOps for production ML pricing models in \$10 billion/yr ecommerce system, including: code review (team of 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
-\item Development of ETL and ML model training pipelines using Spark on Airflow.
-\item Aligned client and internal teams on design of steaming backend system using Azure Event Hubs (PaaS Kafka) and Databricks (PaaS Spark).
-\item Reviewed deep learning literature and evaluted published computer vision models using PyTorch.
+\item Led MLOps for production ML pricing models in >\$10 billion/yr eCommerce system: code review (team of 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
+\item Development of ETL and ML model training pipelines using Spark and Airflow.
+\item Reviewed ML modeling code and literature for deep learning (PyTorch) and tree-based methods (XGBoost).
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Ecobee}
 \descript{| Senior Data Scientist}
-\location{Jun 2021 – May 2022 (1 year) | Toronto, ON}
+\location{Jun 2021 – May 2022 (1 year) | Toronto, Canada}
 %\vspace{\topsep}
 \begin{tightemize}
-\item Led development of edge IoT device convex optimization of ML models for Model Predictive Control application in C++ using interior point methods.
-%\item Improved IoT device temperature sensor calibration regression model by implementing cross validation, grid search (over preprocessing methods), and regularization (lasso) to feature engineering and model selection.
-\item Accelerated ML modeling iteration cycle time from weeks to days by automating MLOps: preprocessing, training, validation, and deployment using Python and Docker.
+\item Led development of edge IoT device convex optimization of ML models for Model Predictive Control in C++ resulting in patent application.
+%\item Improved IoT device temperature sensor calibration regression model by implementing cross-validation, grid search (over preprocessing methods), and regularization (lasso) to feature engineering and model selection.
+\item Accelerated ML modeling iteration cycle time from weeks to days by automating MLOps: preprocessing, training, validation, and deployment.
 \item Led external research collaborations with 4+ academic groups and 2 industry partnership research projects on ML driven controls and simulation software.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Ecobee}
 \descript{| Data Scientist}
-\location{Oct 2018 – Jun 2021 (2 years, 8 months) | Toronto, ON}
+\location{Oct 2018 – Jun 2021 (2 years, 8 months) | Toronto, Canada}
 %\vspace{\topsep}
 \begin{tightemize}
 \item Scaled internal IoT experimentation platform from 0 to 150k+ devices running 10+ experiments simultaneously} by automating build, deployment, monitoring, and metrics with C++, Python, PubSub, and Protobuf.
@@ -193,43 +198,43 @@ Linear Algebra \\
 \sectionsep
 
 \runsubsection{Energy Profiles Limited}
-\descript{| Energy Data Analyst (Co-op)}
-\location{Sep 2015 – Dec 2015 (4 months)| Toronto, ON}
+\descript{| Energy Data Analyst }
+\location{Sep 2015 – Dec 2015 (4 months)| Toronto, Canada}
 \begin{tightemize}
-\item Developed SQL error detection model for equipment issue and input data for building energy submeter data.
-\item Added features and bug fixes to energy bill data ingestion pipeline in Java.
+\item Developed SQL error detection model for equipment and input data for building energy submeter data.
+\item Added features and bug fixes to energy data ingestion pipeline in Java.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{AECOM Canada}
-\descript{| Civil Engineering Student (Co-op)}
-\location{Jan 2015 – Apr 2015 (4 months) | Markham, ON}
-\begin{tightemize}
-\item Digitized workflow for water flow sensor team to remove toil of: data entry from paper forms, data validation, and generating reports for clients.
-\end{tightemize}
-\sectionsep
+%\runsubsection{AECOM Canada}
+%\descript{| Civil Engineering Student }
+%\location{Jan 2015 – Apr 2015 (4 months) | Markham, Canada}
+%\begin{tightemize}
+%\item Digitized workflow for water flow sensor team to remove toil of: data entry from paper forms, data validation, and generating reports for clients.
+%\end{tightemize}
+%\sectionsep
 
-\runsubsection{Dragados Canada}
-\descript{| Civil Engineering Student (Co-op)}
-\location{May 2014 – Aug 2014 (4 months) | Toronto, ON}
-\begin{tightemize}
-\item Automated cost estimating and reporting of road and sidewalk closures for Eglinton Crosstown LRT project bid.
-%\item Analyzed contracts and construction staging plans to help build strategy for lane closures.
-\end{tightemize}
-\sectionsep
+%\runsubsection{Dragados Canada}
+%\descript{| Civil Engineering Student }
+%\location{May 2014 – Aug 2014 (4 months) | Toronto, Canada}
+%\begin{tightemize}
+%\item Automated cost estimating and reporting of road and sidewalk closures for Eglinton Crosstown LRT project bid.
+%%\item Analyzed contracts and construction staging plans to help build strategy for lane closures.
+%\end{tightemize}
+%\sectionsep
 
-\runsubsection{Union Pearson Express}
-\descript{| Engineering Analyst (Co-op)}
-\location{Jan 2013 – Apr 2013,  Sept 2013 – Dec 2013 (8 months) | Toronto, ON}
-\begin{tightemize}
-%\item Worked with company executives on development of pricing strategy and drafting of a detailed presentation for corporate senior management.
-\item Compiled data and consultant reports for predictive modelling of effects of pricing on ridership and revenue.
-\end{tightemize}
-\sectionsep
+%\runsubsection{Union Pearson Express}
+%\descript{| Engineering Analyst }
+%\location{Jan 2013 – Apr 2013,  Sept 2013 – Dec 2013 (8 months) | Toronto, Canada}
+%\begin{tightemize}
+%%\item Worked with company executives on the development of pricing strategy and drafting of a detailed presentation for corporate senior management.
+%\item Compiled data and consultant reports for predictive modeling of effects of pricing on ridership and revenue.
+%\end{tightemize}
+%\sectionsep
 
 %\runsubsection{Rollstar Metalforming}
-%\descript{| Engineering Assistant (Co-op)}
-%\location{May 2012 – Aug 2012 (4 months) | Mississauga, ON}
+%\descript{| Engineering Assistant }
+%\location{May 2012 – Aug 2012 (4 months) | Mississauga, Canada}
 %\begin{tightemize}
 %\item Prepared efficiency and asset audit reports on factory assembly lines for general manager.
 %%\item Worked with general manager and head accountant to complete physical assets audit of plant.
@@ -237,23 +242,23 @@ Linear Algebra \\
 %\sectionsep
 
 
-\end{minipage}
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   PAGE TWO
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PAGE TWO COLUMN ONE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{minipage}[t]{0.33\textwidth}
-% dummy section to make spacing
-\section{}
-\end{minipage}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PAGE TWO COLUMN TWO
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{minipage}[t]{0.66\textwidth}
-\hfill
+%\end{minipage}
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   PAGE TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     PAGE TWO COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{minipage}[t]{0.33\textwidth}
+%% dummy section to make spacing
+%\section{}
+%\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     PAGE TWO COLUMN TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{minipage}[t]{0.66\textwidth}
+%\hfill
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
@@ -264,7 +269,7 @@ Linear Algebra \\
 \descript{| Master's Student}
 \location{Sep 2017 – Oct 2018 | Zurich, Switzerland}
 \begin{tightemize}
-\item Worked with Prof. Dr. John Lygeros and Dr. Annika Eichler on Human-in-the-Loop building controls project combining Model Predictive Control (MPC) and online Bayesian learning for minimizing energy consumption and maximizing thermal comfort of occupants.
+\item Worked with Prof. Dr. John Lygeros and Dr. Annika Eichler on Human-in-the-Loop building controls project combining Model Predictive Control and online Bayesian ML.
 \item Built Python library to model building thermodynamics and run coupled model training and simulation experiments on HPC cluster.
 \item Developed online Bayesian Linear Discriminant Analysis (LDA) classifier for thermal comfort using PyMC3 with an MCMC algorithm.
 \item Derived predictive model of occupancy probability in Python using Markov chains and change point detection algorithm.
@@ -275,15 +280,14 @@ Linear Algebra \\
 %     AWARDS AND PROGRAMMES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards \& Programs} 
-\begin{tabular}{rll}
-2016	 & Excellence Scholarship \& Opportunity Program & ETH Zurich\\
-2016     & Engineer of the Future Fund & University of Waterloo \\
-2012     & Merit Scholarship & University of Waterloo \\
-2010     & SHAD Valley summer program & SHAD Canada \\
-\end{tabular}
-\sectionsep
+% \section{Awards \& Programs} 
+% \begin{tabular}{rll}
+% 2016	 & Excellence Scholarship \& Opportunity Program & ETH Zurich\\
+% 2016     & Engineer of the Future Fund & University of Waterloo \\
+% 2012     & Merit Scholarship & University of Waterloo \\
+% 2010     & SHAD Valley summer program & SHAD Canada \\
+% \end{tabular}
+% \sectionsep
 
 \end{minipage} 
 \end{document}
-
