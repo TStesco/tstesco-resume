@@ -87,14 +87,10 @@
  C++ \textbullet{}
 SQL \textbullet{}
 Bash
-\subsection{prior experience}
-Java \textbullet{} Javascript \textbullet{} Go
 
 \subsection{tools}
 PyTorch \textbullet{} vLLM \\
 Airflow \textbullet{} Apache Spark \\
-% Numpy \textbullet{} Pandas \textbullet{} SKlearn \\
-MySQL \textbullet{} BigQuery \textbullet{} Datastore \\
 Kafka \textbullet{} PubSub \textbullet{} Protobuf \\
 Docker \textbullet{} Kubernetes \textbullet{} Terraform \\
 GCP \textbullet{} AWS \textbullet{} Azure \\
@@ -173,17 +169,15 @@ Linear Algebra \\
 \vspace{\topsep} % Vertical space between sections
 
 \begin{tightemize}
-    \item Technical lead for team growing from 1 to 5+ engineers providing E2E benchmarking performance, accuracy evaluations, and QA in \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}} open source project for internal and external customers in Tenstorrent software ecosystem.
-    \item Partnering with customers running LLM inference servers (vLLM) and LLM optimization engineering teams to QA and deliver implementations for new AI accelerator hardware and new model architectures.
+    \item Tech lead for open-source \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}} project, from 1 to 6+ engineer team delivering end-to-end benchmarking, accuracy evals, and QA.
+    \item Collaborating with customers and LLM optimization teams to validate and deploy new LLM architectures on next-gen AI accelerator hardware.
     \item Designed and implemented backend of \href{https://github.com/tenstorrent/tt-studio}{\texttt{tt-studio}} a GUI application for customers to run ML model demos on Tenstorrent AI accelerators.
 \end{tightemize}
 \textbf{Staff Field Application Engineer - AI/ML Software} \hfill \textit{Apr 2023 – Sep 2024}\
 \begin{tightemize}
     \item Led development and deployment of cloud AI application demos (LLM chatbots, CNN object detection, ASR) and proof-of-concepts (e.g. API hosting) in partnership with engineering teams and contractors.
-    \item Developer code for benchmarking transformer and CNN models on AI accelerators in \href{https://github.com/tenstorrent/tt-buda-benchmarks}{\texttt{tt-buda-benchmarks}} to track progress on performance and accuracy using graph compiler .
+    \item Developed benchmarks transformer and CNN models on AI accelerators in \href{https://github.com/tenstorrent/tt-buda-benchmarks}{\texttt{tt-buda-benchmarks}} to track progress on performance and accuracy using graph compiler.
     \item Customer-facing engineering support to adapt transformer and CNN models in PyTorch for deployment on AI accelerator hardware.
-    % \item Customer facing pre/post-sales AI software technical training and support.
-    % inference as a service, Azure APIM, AWS API Gateway, AWS cloud front, AWS EKS, Terraform
 \end{tightemize}
 \sectionsep
 
@@ -193,7 +187,7 @@ Linear Algebra \\
 \textbf{Senior AI/ML Engineer} \hfill \textit{May 2022 – Apr 2023}\
 %\vspace{\topsep}
 \begin{tightemize}
-\item Led MLOps for pricing models in R&D and production for large enterprise eCommerce: code reviews (teams of 3 to 5 FTE), test planning and validation, CI/CD, release management, monitoring, and on-call.
+\item Led MLOps for pricing models in R&D and production for large enterprise eCommerce: code reviews (teams of 3 to 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
 \item Partnered with Data Scientists and customer Data Engineering teams in developing ETL, model training (XGBoost), and model deployment pipelines using Apache Spark and Airflow on GCP and Azure Databricks Lakehouse.
 \end{tightemize}
 \sectionsep
@@ -244,11 +238,9 @@ Linear Algebra \\
 \location{Sep 2017 – Oct 2018 (1 year, 1 month) | Zurich, Switzerland}
 \textbf{Master's Student} \hfill \textit{Sep 2017 – Oct 2018}
 \begin{tightemize}
-\item Human-in-the-Loop building controls MSc thesis project combining Model Predictive Control and online Bayesian ML. Supervised by Prof. Dr. John Lygeros and Dr. Annika Eichler.
-\item Implemented and tested proposed methods in literature for thermal comfort and occupancy prediction: Bayesian Linear Discriminant Analysis (LDA), Markov Chain Monte Carlo (MCMC), and change point detection algorithms.
-\item Developed Python library to train models and run controls simulation experiments on Euler HPC cluster.
-%Developed online Bayesian Linear Discriminant Analysis (LDA) classifier for thermal comfort using PyMC3 with an MCMC algorithm.
-%\item Derived predictive model of occupancy probability in Python using Markov chains and change point detection algorithm.
+\item MSc thesis: human-in-the-loop building control via MPC + online Bayesian ML. Supervisors: Prof. Dr. John Lygeros and Dr. Annika Eichler.
+\item Implemented Bayesian LDA, MCMC, and change-point algorithms for comfort & occupancy prediction.
+\item Created Python library for large-scale control simulations on Euler HPC cluster.
 \end{tightemize}
 \sectionsep
 
