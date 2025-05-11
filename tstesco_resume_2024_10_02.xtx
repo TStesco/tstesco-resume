@@ -1,16 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % One Page Two Column Resume
-% LaTeX Template
-% Version 1.2 (16/9/2014)
 %
 % IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
 
 \documentclass[]{resume-openfont}
 \usepackage{fancyhdr}
@@ -18,6 +10,7 @@
 % adding embedded graphics
 \usepackage{tikz}
 \newcommand{\gthb}{\includegraphics[scale=0.023]{img/github-logo.pdf}}%
+\newcommand{\gthbtt}{\includegraphics[scale=0.023]{img/github-logo.pdf}}%
 \newcommand{\lnkdn}{\includegraphics[scale=0.023]{img/linkedin-logo.pdf}}%
 \newcommand{\home}{\includegraphics[scale=0.022]{img/home-solid.pdf}}%
 \newcommand{\location}{\includegraphics[scale=0.022]{img/location.pdf}}%
@@ -46,6 +39,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Tom}{Stesco}{ 
 \gthb \hspace{0.1cm} \href{https://github.com/tstesco}{\bf tstesco} | 
+\gthbtt \hspace{0.1cm} \href{https://github.com/tstescoTT}{\bf tstescoTT} | 
 \home \hspace{0.1cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} |
 \lnkdn \hspace{0.1cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} |
 \email \hspace{0.1cm} \href{mailto:tom.stesco@protonmail.com}{\bf tom.stesco@protonmail.com}
@@ -166,19 +160,19 @@ Linear Algebra \\
 \vspace{\topsep}
 \runsubsection{Tenstorrent}
 \descript{}
-\location{Apr 2023 – present (1 year, 6 months) | Toronto, Canada}
-\textbf{Sr. Staff Field Application Engineer - ML Software} \hfill \textit{Sep 2024 – present}
+\location{Apr 2023 – present (2 years, 1 month) | Toronto, Canada}
+\textbf{Senior Staff Field Application Engineer - AI/ML Software} \hfill \textit{Sep 2024 – present}
 \vspace{\topsep} % Vertical space between sections
 
 \begin{tightemize}
     \item Developed Docker containerization toolkit for AI/ML applications on AI accelerator hardware and reference LLM inference server backend.
     \item Integrated, ran, and reported LLM \href{https://github.com/tstescoTT/lm-evaluation-harness}{evaluations} on AI accelerator hardware to ensure model accuracy.
 \end{tightemize}
-\textbf{Staff Field Application Engineer - ML Software} \hfill \textit{Apr 2023 – Sep 2024}\
+\textbf{Staff Field Application Engineer - AI/ML Software} \hfill \textit{Apr 2023 – Sep 2024}\
 \begin{tightemize}
     \item Led development and deployment of AI application demos, proof-of-concepts, and sales tools in partnership with engineering team and contractors.
-    \item Performance and accuracy benchmarking transformer and CNN model implementations on AI accelerator hardware to track progress and ensure reliability for customers.
-    \item Worked with customers to adapt transformers and CNN models for deployment on AI accelerator hardware.
+    \item Benchmarked transformer and CNN models on AI accelerator to track progress on performance and accuracy.
+    \item Customer-facing engineering support to adapt transformer and CNN models for deployment on AI accelerator hardware.
     % \item Customer facing pre/post-sales AI software technical training and support.
     % inference as a service, Azure APIM, AWS API Gateway, AWS cloud front, AWS EKS, Terraform
 \end{tightemize}
@@ -187,11 +181,11 @@ Linear Algebra \\
 \runsubsection{BCG X}
 \descript{}
 \location{May 2022 – Apr 2023 (1 year) | Toronto, Canada}
-\textbf{Sr. AI/ML Engineer} \hfill \textit{May 2022 – Apr 2023}\
+\textbf{Senior AI/ML Engineer} \hfill \textit{May 2022 – Apr 2023}\
 %\vspace{\topsep}
 \begin{tightemize}
 \item Led MLOps for production pricing models in large (\$10+ billion/yr) eCommerce systems: code review (team of 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
-\item Partnered with ML Scientists in developing ETL, ML model (XGBoost) training, and model deployment pipelines using Spark, Airflow, and Databricks Lakehouse.
+\item Partnered with ML Scientists in developing ETL, ML model training (XGBoost), and model deployment pipelines using Apache Spark and Airflow on GCP and Azure Databricks Lakehouse.
 \end{tightemize}
 \sectionsep
 
@@ -201,7 +195,7 @@ Linear Algebra \\
 \location{Oct 2018 – May 2022 (3 years, 8 months) | Toronto, Canada}
 %\vspace{\topsep} % Vertical space between sections
 % Senior Data Scientist
-\textbf{Sr. Data Scientist} \hfill \textit{Jun 2021 – May 2022}
+\textbf{Senior Data Scientist} \hfill \textit{Jun 2021 – May 2022}
 \begin{tightemize}
     \item Developed edge IoT device optimal control application (embedded C++) using ML models, resulting in proof of concept and patent application.
 \end{tightemize}
@@ -258,7 +252,7 @@ Linear Algebra \\
 % 2016	 & Excellence Scholarship \& Opportunity Program & ETH Zurich\\
 % 2016     & Engineer of the Future Fund & University of Waterloo \\
 % 2012     & Merit Scholarship & University of Waterloo \\
-% 2010     & SHAD Valley summer program & SHAD Canada \\
+% 2010     & SHAD Valley STEM summer program & SHAD Canada \\
 % \end{tabular}
 % \sectionsep
 
