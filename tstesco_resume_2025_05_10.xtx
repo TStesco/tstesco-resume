@@ -6,6 +6,7 @@
 
 \documentclass[]{resume-openfont}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
 
 % adding embedded graphics
 \usepackage{tikz}
@@ -20,6 +21,13 @@
 
 \pagestyle{fancy}
 \fancyhf{}
+
+\hypersetup{
+  colorlinks   = true,   % turn link boxes off
+  urlcolor     = blue,   % external links
+  linkcolor    = blue,   % internal links (section refs, etc.)
+  citecolor    = blue    % bibliography
+}
  
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,14 +173,15 @@ Linear Algebra \\
 \vspace{\topsep} % Vertical space between sections
 
 \begin{tightemize}
-    \item Developed Docker containerization toolkit for AI/ML applications on AI accelerator hardware and reference LLM inference server backend.
-    \item Integrated, ran, and reported LLM \href{https://github.com/tstescoTT/lm-evaluation-harness}{evaluations} on AI accelerator hardware to ensure model accuracy.
+    \item Technical lead for team growing from 1 to 5+ engineers providing E2E benchmarking performance, accuracy evaluations, and QA in \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}} open source project for internal and external customers in Tenstorrent software ecosystem.
+    \item Partnering with customers running LLM inference servers (vLLM) and LLM optimization engineering teams to QA and deliver implementations for new AI accelerator hardware and new model architectures.
+    \item Designed and implemented backend of \href{https://github.com/tenstorrent/tt-studio}{\texttt{tt-studio}} a GUI application for customers to run ML model demos on Tenstorrent AI accelerators.
 \end{tightemize}
 \textbf{Staff Field Application Engineer - AI/ML Software} \hfill \textit{Apr 2023 – Sep 2024}\
 \begin{tightemize}
-    \item Led development and deployment of AI application demos, proof-of-concepts, and sales tools in partnership with engineering team and contractors.
-    \item Benchmarked transformer and CNN models on AI accelerator to track progress on performance and accuracy.
-    \item Customer-facing engineering support to adapt transformer and CNN models for deployment on AI accelerator hardware.
+    \item Led development and deployment of cloud AI application demos (LLM chatbots, CNN object detection, ASR) and proof-of-concepts (e.g. API hosting) in partnership with engineering teams and contractors.
+    \item Developer code for benchmarking transformer and CNN models on AI accelerators in \href{https://github.com/tenstorrent/tt-buda-benchmarks}{\texttt{tt-buda-benchmarks}} to track progress on performance and accuracy using graph compiler .
+    \item Customer-facing engineering support to adapt transformer and CNN models in PyTorch for deployment on AI accelerator hardware.
     % \item Customer facing pre/post-sales AI software technical training and support.
     % inference as a service, Azure APIM, AWS API Gateway, AWS cloud front, AWS EKS, Terraform
 \end{tightemize}
@@ -184,8 +193,8 @@ Linear Algebra \\
 \textbf{Senior AI/ML Engineer} \hfill \textit{May 2022 – Apr 2023}\
 %\vspace{\topsep}
 \begin{tightemize}
-\item Led MLOps for production pricing models in large (\$10+ billion/yr) eCommerce systems: code review (team of 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
-\item Partnered with ML Scientists in developing ETL, ML model training (XGBoost), and model deployment pipelines using Apache Spark and Airflow on GCP and Azure Databricks Lakehouse.
+\item Led MLOps for pricing models in R&D and production for large enterprise eCommerce: code reviews (teams of 3 to 5 FTE), test planning and validation, CI/CD, release management, monitoring, and on-call.
+\item Partnered with Data Scientists and customer Data Engineering teams in developing ETL, model training (XGBoost), and model deployment pipelines using Apache Spark and Airflow on GCP and Azure Databricks Lakehouse.
 \end{tightemize}
 \sectionsep
 
@@ -230,7 +239,7 @@ Linear Algebra \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Research}
-\runsubsection{\href{https://control.ee.ethz.ch}{Automatic Control Lab}}
+\runsubsection{Automatic Control Lab}
 \descript{}
 \location{Sep 2017 – Oct 2018 (1 year, 1 month) | Zurich, Switzerland}
 \textbf{Master's Student} \hfill \textit{Sep 2017 – Oct 2018}
