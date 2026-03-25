@@ -169,9 +169,9 @@ Linear Algebra \\
 \vspace{\topsep} % Vertical space between sections
 
 \begin{tightemize}
-    \item Tech lead for open-source \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}} project, from 1 to 6+ engineer team delivering end-to-end benchmarking, accuracy evals, and QA.
+    \item Tech lead for open-source \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}} project, 6+ engineer team delivering LLM end-to-end benchmarking, accuracy evals, and QA.
     \item Collaborating with customers and LLM optimization teams to validate and deploy new LLM architectures on next-gen AI accelerator hardware.
-    \item Designed and implemented backend of \href{https://github.com/tenstorrent/tt-studio}{\texttt{tt-studio}} a GUI application for customers to run ML model demos on Tenstorrent AI accelerators.
+    \item Backend lead for \href{https://github.com/tenstorrent/tt-studio}{\texttt{tt-studio}} a GUI application for customers to run ML model demos on AI accelerators.
 \end{tightemize}
 \textbf{Staff Field Application Engineer - AI/ML Software} \hfill \textit{Apr 2023 – Sep 2024}\
 \begin{tightemize}
