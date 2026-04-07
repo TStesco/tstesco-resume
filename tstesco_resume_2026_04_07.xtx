@@ -1,0 +1,248 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% One Page Two Column Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+
+\documentclass[]{resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+% adding embedded graphics
+\usepackage{tikz}
+\newcommand{\gthb}{\includegraphics[scale=0.023]{img/github-logo.pdf}}%
+\newcommand{\gthbtt}{\includegraphics[scale=0.023]{img/github-logo.pdf}}%
+\newcommand{\lnkdn}{\includegraphics[scale=0.023]{img/linkedin-logo.pdf}}%
+\newcommand{\home}{\includegraphics[scale=0.022]{img/home-solid.pdf}}%
+\newcommand{\location}{\includegraphics[scale=0.022]{img/location.pdf}}%
+\newcommand{\email}{\includegraphics[scale=0.09]{img/email.pdf}}%
+%\newcommand{\phone}{\includegraphics[scale=0.035]{img/phone-call.pdf}}%
+\newcommand{\call}{\includegraphics[scale=0.023]{img/call.pdf}}%
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\hypersetup{
+  colorlinks   = true,   % turn link boxes off
+  urlcolor     = blue,   % external links
+  linkcolor    = blue,   % internal links (section refs, etc.)
+  citecolor    = blue    % bibliography
+}
+ 
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   PAGE ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%f%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Tom}{Stesco}{ 
+\gthb \hspace{0.1cm} \href{https://github.com/tstesco}{\bf tstesco} | 
+\gthbtt \hspace{0.1cm} \href{https://github.com/tstescoTT}{\bf tstescoTT} | 
+\home \hspace{0.1cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} |
+\lnkdn \hspace{0.1cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} |
+\email \hspace{0.1cm} \href{mailto:tom.stesco@protonmail.com}{\bf tom.stesco@protonmail.com}
+%\call \hspace{0.1cm} \bf +1 (416)-999-6759
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33 \textwidth} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Links} 
+% \home \hspace{0.167cm} \href{https://www.tomstesco.com}{\bf tomstesco.com} \\
+% \gthb \hspace{0.2cm} \href{https://github.com/tstesco}{\bf tstesco} \\
+% \lnkdn \hspace{0.215cm} \href{https://www.linkedin.com/in/tomstesco/}{\bf tomstesco} \\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Programming}
+%\subsection{Programming}
+\subsection{expert}
+ Python
+% \location{proficient}
+\subsection{proficient}
+ C++ \textbullet{}
+SQL \textbullet{}
+Bash
+
+\subsection{tools}
+PyTorch \textbullet{} vLLM \\
+Airflow \textbullet{} Apache Spark \\
+Kafka \textbullet{} PubSub \textbullet{} Protobuf \\
+Docker \textbullet{} Kubernetes \textbullet{} Terraform \\
+GCP \textbullet{} AWS \textbullet{} Azure \\
+GNU/Linux \textbullet{} Git
+
+% Pub/Sub \textbullet{} Protobuf \\
+% Docker \textbullet{} Kubernetes \\
+% GCP \textbullet{} AWS \\
+% GNU/Linux \textbullet{} Git
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{ETH Zurich}
+\descript{MSc Integrated Building Systems}
+Excellence Scholar \\
+\location{Oct 2018 | Zurich, Switzerland}
+\sectionsep
+
+\subsection{University of Waterloo}
+\descript{BASc Honours Civil Engineering}
+Merit Scholarship \\
+\location{Jun 2016 | Waterloo, Canada}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Model Predictive Control \\
+Mathematical Optimization \\
+Computational Physics \\
+Building Control and Automation \\
+Computational Fluid Dynamics \\
+Renewable Energy Technologies \\
+Technology and Innovation Management \\
+Innovation Leadership \\
+Social Networks Research\\
+\sectionsep
+
+\subsection{Undergraduate}
+Software Engineering Design Project \\
+Building Science \\
+%Air Pollution Control \\
+Bioprocess Engineering \\
+Advanced Calculus \\
+Probability and Statistics \\
+Linear Algebra \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\vspace{\topsep}
+\runsubsection{Tenstorrent}
+\descript{}
+\location{Apr 2023 – present (3 years) | Toronto, Canada}
+\textbf{Senior Staff Field Application Engineer - AI/ML Software} \hfill \textit{Sep 2024 – present}
+\vspace{\topsep} % Vertical space between sections
+
+\begin{tightemize}
+    \item Lead maintainer for \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}}, the serving inference on Tenstorrent hardware.
+    \item Collaborating with R&D and production engineering teams to design and implement CI/CD and release system to ship Tenstorrent Software stack through tt-inference-server.
+    \item Partner to customers and LLM optimization teams to validate and deploy new LLM architectures on next-gen AI accelerator hardware.
+\end{tightemize}
+\textbf{Staff Field Application Engineer - AI/ML Software} \hfill \textit{Apr 2023 – Sep 2024}\
+\begin{tightemize}
+    \item Led development and deployment of cloud and on-prem AI application demos and proof-of-concepts, for example backend for \href{https://github.com/tenstorrent/tt-studio}{\texttt{tt-studio}}.
+    \item Developed benchmarks transformer and CNN models on AI accelerators in \href{https://github.com/tenstorrent/tt-buda-benchmarks}{\texttt{tt-buda-benchmarks}} to track progress on performance and accuracy using graph compiler.
+    \item Customer-facing engineering support to adapt transformer and CNN models in PyTorch for deployment on AI accelerator hardware.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{BCG X}
+\descript{}
+\location{May 2022 – Apr 2023 (1 year) | Toronto, Canada}
+\textbf{Senior AI/ML Engineer} \hfill \textit{May 2022 – Apr 2023}\
+%\vspace{\topsep}
+\begin{tightemize}
+\item Led MLOps for pricing models in R&D and production for large enterprise eCommerce: code reviews (teams of 3 to 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
+\item Partnered with Data Scientists and customer Data Engineering teams in developing ETL, model training (XGBoost), and model deployment pipelines using Apache Spark and Airflow on GCP and Azure Databricks Lakehouse.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ecobee}
+%\descript{| Toronto, Canada}
+\descript{}
+\location{Oct 2018 – May 2022 (3 years, 8 months) | Toronto, Canada}
+%\vspace{\topsep} % Vertical space between sections
+% Senior Data Scientist
+\textbf{Senior Data Scientist} \hfill \textit{Jun 2021 – May 2022}
+\begin{tightemize}
+    \item Developed edge IoT device optimal control application (embedded C++) using ML models, resulting in proof of concept and patent application.
+\end{tightemize}
+% Data Scientist
+\textbf{Data Scientist} \hfill \textit{Oct 2018 – Jun 2021}
+\begin{tightemize}
+    \item Developed HVAC controls physics-based simulation platform, partially open sourced as \href{https://github.com/ecobee/building-controls-simulator}{\texttt{building-controls-simulator}}, and was presented at the \href{http://esim2020.sala.ubc.ca/}{eSim2020} conference.
+    \item Scaled internal IoT experimentation platform from 0 to 150k+ devices running parameterized experiments by automating build, deployment, monitoring, and metrics with C++, Python, PubSub, and Protobuf.
+\end{tightemize}
+\sectionsep
+
+%\end{minipage}
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   PAGE TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     PAGE TWO COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{minipage}[t]{0.33\textwidth}
+%% dummy section to make spacing
+%\section{}
+%\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     PAGE TWO COLUMN TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{minipage}[t]{0.66\textwidth}
+%\hfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Automatic Control Lab}
+\descript{}
+\location{Sep 2017 – Oct 2018 (1 year, 1 month) | Zurich, Switzerland}
+\textbf{Master's Student} \hfill \textit{Sep 2017 – Oct 2018}
+\begin{tightemize}
+\item MSc thesis: \href{https://www.tomstesco.com/assets/pdf/HITL_MA_report_tstesco.pdf}{\texttt{Humans in the Loop}} - Model Predictive Control (MPC) using online learning from occupant feedback. Supervisors: Prof. Dr. John Lygeros and Dr. Annika Eichler.
+\item Implemented Bayesian LDA, MCMC, and change-point algorithms for comfort & occupancy prediction.
+\item Created Python library for large-scale control simulations on Euler HPC cluster.
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}
