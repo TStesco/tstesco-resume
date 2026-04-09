@@ -89,17 +89,12 @@ SQL \textbullet{}
 Bash
 
 \subsection{tools}
-PyTorch \textbullet{} vLLM \\
+vLLM \textbullet{} PyTorch \\
 Airflow \textbullet{} Apache Spark \\
-Kafka \textbullet{} PubSub \textbullet{} Protobuf \\
+Kafka \textbullet{} Pub/Sub \textbullet{} Protobuf \\
 Docker \textbullet{} Kubernetes \textbullet{} Terraform \\
 GCP \textbullet{} AWS \textbullet{} Azure \\
 GNU/Linux \textbullet{} Git
-
-% Pub/Sub \textbullet{} Protobuf \\
-% Docker \textbullet{} Kubernetes \\
-% GCP \textbullet{} AWS \\
-% GNU/Linux \textbullet{} Git
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -110,7 +105,7 @@ GNU/Linux \textbullet{} Git
 
 \subsection{ETH Zurich}
 \descript{MSc Integrated Building Systems}
-Excellence Scholar \\
+ Excellence Scholarship \& \\ Opportunity Programme (ESOP) \\
 \location{Oct 2018 | Zurich, Switzerland}
 \sectionsep
 
@@ -118,6 +113,24 @@ Excellence Scholar \\
 \descript{BASc Honours Civil Engineering}
 Merit Scholarship \\
 \location{Jun 2016 | Waterloo, Canada}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+% \runsubsection{\href{https://control.ee.ethz.ch/}{{\Automatic Control Lab}}}
+\runsubsection{Automatic Control Lab} \\
+\location{Oct 2018 | Zurich, Switzerland}
+MSc thesis: \href{https://www.tomstesco.com/assets/pdf/HITL_MA_report_tstesco.pdf}{\texttt{Humans in the Loop}} \\ Model Predictive Control (MPC) using online learning from human feedback. \\
+% \\
+% Supervisors: Prof. Dr. John Lygeros and Dr. Annika Eichler.
+% \begin{tightemize}
+% \item MSc thesis: \href{https://www.tomstesco.com/assets/pdf/HITL_MA_report_tstesco.pdf}{\texttt{Humans in the Loop}} - Model Predictive Control (MPC) using online learning from occupant feedback. Supervisors: Prof. Dr. John Lygeros and Dr. Annika Eichler.
+% \item Implemented Bayesian LDA, MCMC, and change-point algorithms for comfort & occupancy prediction.
+% \item Created Python library for large-scale control simulations on Euler HPC cluster.
+% \end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -169,15 +182,20 @@ Linear Algebra \\
 \vspace{\topsep} % Vertical space between sections
 
 \begin{tightemize}
-    \item Lead maintainer for \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}}, the serving inference on Tenstorrent hardware.
-    \item Collaborating with R&D and production engineering teams to design and implement CI/CD and release system to ship Tenstorrent Software stack through tt-inference-server.
-    \item Partner to customers and LLM optimization teams to validate and deploy new LLM architectures on next-gen AI accelerator hardware.
-\end{tightemize}
+    \item \href{https://github.com/tenstorrent/tt-inference-server}{\texttt{tt-inference-server}}: co-lead of 20+ engineer cross-functional team developing open-source E2E LLM inference serving framework with integrated benchmarking, evaluations, and deployment tooling for Tenstorrent AI accelerators.
+    
+    \item Architected CI/CD and release system for the inference serving software stack, enabling reliable production LLM deployments and automated regression detection. 18 releases completed, 60+ AI models supported (27 LLMs/VLMs) across 9 different hardware configurations.
+    
+    \item Collaborated with customers' engineering teams to validate and optimize LLM implementations, e.g. quantization, latency/throughput tuning, structured outputs, for production deployment of AI applications. For example, agentic document processing with OCR, multi-modal inputs, and function calling.\end{tightemize}
+%\end{tightemize}
+
 \textbf{Staff Field Application Engineer - AI/ML Software} \hfill \textit{Apr 2023 – Sep 2024}\
 \begin{tightemize}
-    \item Led development and deployment of cloud and on-prem AI application demos and proof-of-concepts, for example backend for \href{https://github.com/tenstorrent/tt-studio}{\texttt{tt-studio}}.
-    \item Developed benchmarks transformer and CNN models on AI accelerators in \href{https://github.com/tenstorrent/tt-buda-benchmarks}{\texttt{tt-buda-benchmarks}} to track progress on performance and accuracy using graph compiler.
-    \item Customer-facing engineering support to adapt transformer and CNN models in PyTorch for deployment on AI accelerator hardware.
+    \item Prototyped cloud infra for internet-facing deployment of LLM inference servers running vLLM for enterprise customers, using Docker, AWS EKS, ELB, Azure API Gateway, and Terraform.
+
+    \item \href{https://github.com/tenstorrent/tt-studio}{\texttt{tt-studio}}: Built open-source customer reference AI applications. e.g. using LangChain and self-hosting LLM inference APIs.
+
+    \item \href{https://github.com/tenstorrent/tt-buda-benchmarks}{\texttt{tt-buda-benchmarks}}: Designed benchmarking and evaluation pipelines for LLM and CNN models to track model performance and accuracy across AI graph compiler releases.
 \end{tightemize}
 \sectionsep
 
@@ -187,8 +205,9 @@ Linear Algebra \\
 \textbf{Senior AI/ML Engineer} \hfill \textit{May 2022 – Apr 2023}\
 %\vspace{\topsep}
 \begin{tightemize}
-\item Led MLOps for pricing models in R&D and production for large enterprise eCommerce: code reviews (teams of 3 to 5), test planning and validation, CI/CD, release management, monitoring, and on-call.
-\item Partnered with Data Scientists and customer Data Engineering teams in developing ETL, model training (XGBoost), and model deployment pipelines using Apache Spark and Airflow on GCP and Azure Databricks Lakehouse.
+    \item Led production engineering for petabyte-scale pricing optimization models on Azure Databricks Lakehouse. Internal ETL library enhancements, CI/CD and release process integration with secure artifactory, deployment using Databricks Jobs.
+
+    \item Led MLOps for time-series XGBoost pricing model lifecycle management: ETL, training, validation, and deployment in production, monitoring, on-call. Using Airflow, Apache Spark, and BigQuery in GCP.
 \end{tightemize}
 \sectionsep
 
@@ -200,17 +219,19 @@ Linear Algebra \\
 % Senior Data Scientist
 \textbf{Senior Data Scientist} \hfill \textit{Jun 2021 – May 2022}
 \begin{tightemize}
-    \item Developed edge IoT device optimal control application (embedded C++) using ML models, resulting in proof of concept and patent application.
+    \item \href{https://patents.google.com/patent/US12241649B2/en}{\texttt{US12241649B2}}: Invented and implemented edge ML optimal HVAC control system in embedded C++ using server trained state-space models and hybrid Model Predictive Control (MPC) approach to optimize energy cost over forecasted: energy price, weather, occupancy, heat gains. Resulting in proof of concept experiments and granted patent.
+
+    \item \href{https://github.com/ecobee/building-controls-simulator}{\texttt{building-controls-simulator}}: devloped open source HVAC controls digital-twin platform that fits parametric models using real data (terabyte scale) and was used to validate control algorithm changes in simulation. Presented at \href{http://esim2020.sala.ubc.ca/}{eSim2020} conference.
 \end{tightemize}
+
 % Data Scientist
 \textbf{Data Scientist} \hfill \textit{Oct 2018 – Jun 2021}
 \begin{tightemize}
-    \item Developed HVAC controls physics-based simulation platform, partially open sourced as \href{https://github.com/ecobee/building-controls-simulator}{\texttt{building-controls-simulator}}, and was presented at the \href{http://esim2020.sala.ubc.ca/}{eSim2020} conference.
-    \item Scaled internal IoT experimentation platform from 0 to 150k+ devices running parameterized experiments by automating build, deployment, monitoring, and metrics with C++, Python, PubSub, and Protobuf.
+    \item Scaled internal IoT experimentation and telemetry platform from 0 to 150k+ devices running parameterized experiments by automating build, embedded experiment deployment, telemetry, and monitoring. Using C++, Protobuf, Pub/Sub, Big Query, and Python.
 \end{tightemize}
 \sectionsep
 
-%\end{minipage}
+\end{minipage}
 %\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%   PAGE TWO
@@ -228,21 +249,6 @@ Linear Algebra \\
 %\begin{minipage}[t]{0.66\textwidth}
 %\hfill
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Automatic Control Lab}
-\descript{}
-\location{Sep 2017 – Oct 2018 (1 year, 1 month) | Zurich, Switzerland}
-\textbf{Master's Student} \hfill \textit{Sep 2017 – Oct 2018}
-\begin{tightemize}
-\item MSc thesis: \href{https://www.tomstesco.com/assets/pdf/HITL_MA_report_tstesco.pdf}{\texttt{Humans in the Loop}} - Model Predictive Control (MPC) using online learning from occupant feedback. Supervisors: Prof. Dr. John Lygeros and Dr. Annika Eichler.
-\item Implemented Bayesian LDA, MCMC, and change-point algorithms for comfort & occupancy prediction.
-\item Created Python library for large-scale control simulations on Euler HPC cluster.
-\end{tightemize}
-\sectionsep
-
-\end{minipage} 
+%\end{minipage} 
 \end{document}
