@@ -187,7 +187,7 @@ Linear Algebra \\
 \textbf{Senior Manager, Forward Deployed Engineering} \hfill \textit{Jul 2026 – present}
 \vspace{\topsep} % Vertical space between sections
 \begin{tightemize}
-    \item Design scalable pre-sales and post-sales life cycle processes for customers deploying AI inference clusters across 7+ teams and 5 geographies. Built agentic LangGraph app to coordinate statuses and compute resource scheduling for customer technical delivery across demos, proof of concept, and production deployments. 
+    \item Implemented scalable pre-sales and post-sales life cycle processes for customers deploying AI inference clusters across 7+ teams and 5 geographies. Built agentic LangGraph app to coordinate statuses and compute resource scheduling for customer technical delivery across demos, proof of concept, and production deployments. 
     
     \item Architected customer kubernetes clusters for AI inference serving and development using tt-operator, ansible, helm, and \href{https://docs.tenstorrent.com/cloud-native-support/}{\texttt{cloud native tooling}}.
 \end{tightemize}
