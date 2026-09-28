@@ -231,7 +231,7 @@ Linear Algebra \\
 % Senior Data Scientist
 \textbf{Senior Data Scientist} \hfill \textit{Jun 2021 – May 2022}
 \begin{tightemize}
-    \item \href{https://patents.google.com/patent/US12241649B2/en}{\texttt{US12241649B2}}: Invented and implemented edge ML optimal HVAC control system in embedded C++ using trained state-space models and hybrid Model Predictive Control approach to optimize energy cost over forecasted: energy price, weather, and occupancy. Conducted real-world experiments, resulting in granted patent.
+    \item Inventor of US patent \href{https://patents.google.com/patent/US12241649B2/en}{\texttt{US12241649B2}} in hybrid edge ML Model Predictive Control system for HVAC, optimizing energy cost over forecasted energy price, weather, and occupancy. Implemented real-world system and conducted experiments in embedded C++ using trained autoregressive state-space models.
 
     \item \href{https://github.com/ecobee/building-controls-simulator}{\texttt{building-controls-simulator}}: developed open source HVAC controls digital-twin platform. Physics models automatically fit and tuned using real sensor data. Presented at \href{http://esim2020.sala.ubc.ca/}{eSim2020 conference}.
 \end{tightemize}
