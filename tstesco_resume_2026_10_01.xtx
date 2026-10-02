@@ -93,7 +93,8 @@ LangGraph \textbullet{} PydanticAI \\
 Airflow \textbullet{} Apache Spark \\
 BigQuery \textbullet{} Firestore \\
 Kafka \textbullet{} Pub/Sub \textbullet{} Protobuf \\
-Kubernetes \textbullet{} Docker \textbullet{} Terraform \\
+Kubernetes \textbullet{} Helm \textbullet{} Docker \\
+Terraform \textbullet{} Ansible \\
 GCP \textbullet{} AWS \textbullet{} Azure \\
 
 
